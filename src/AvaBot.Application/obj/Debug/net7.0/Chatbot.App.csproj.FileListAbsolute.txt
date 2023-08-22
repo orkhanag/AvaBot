@@ -1,0 +1,12 @@
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\bin\Debug\net7.0\Chatbot.App.deps.json
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\bin\Debug\net7.0\Chatbot.App.dll
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\bin\Debug\net7.0\Chatbot.App.pdb
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\Chatbot.App.csproj.AssemblyReference.cache
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\Chatbot.App.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\Chatbot.App.AssemblyInfoInputs.cache
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\Chatbot.App.AssemblyInfo.cs
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\Chatbot.App.csproj.CoreCompileInputs.cache
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\Chatbot.App.dll
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\refint\Chatbot.App.dll
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\Chatbot.App.pdb
+D:\source\repos\chatbot\Chatbot.App\Chatbot.App\obj\Debug\net7.0\ref\Chatbot.App.dll

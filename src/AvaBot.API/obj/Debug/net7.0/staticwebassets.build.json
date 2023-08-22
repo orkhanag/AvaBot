@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ouKAOYFJEwzNfJzh+xEWILhDdHnCLHvDjWd2JsGQMsE=",
+  "Source": "AvaBot.API",
+  "BasePath": "_content/AvaBot.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

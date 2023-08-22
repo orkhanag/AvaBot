@@ -1,0 +1,12 @@
+D:\source\repos\AvaBot\src\AvaBot.Domain\bin\Debug\net7.0\AvaBot.Domain.deps.json
+D:\source\repos\AvaBot\src\AvaBot.Domain\bin\Debug\net7.0\AvaBot.Domain.dll
+D:\source\repos\AvaBot\src\AvaBot.Domain\bin\Debug\net7.0\AvaBot.Domain.pdb
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\AvaBot.Domain.csproj.AssemblyReference.cache
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\AvaBot.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\AvaBot.Domain.AssemblyInfoInputs.cache
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\AvaBot.Domain.AssemblyInfo.cs
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\AvaBot.Domain.csproj.CoreCompileInputs.cache
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\AvaBot.Domain.dll
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\refint\AvaBot.Domain.dll
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\AvaBot.Domain.pdb
+D:\source\repos\AvaBot\src\AvaBot.Domain\obj\Debug\net7.0\ref\AvaBot.Domain.dll
