@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="D:\source\repos\AvaBot\src\AvaBot.Domain\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="D:\source\repos\AvaBot\src\AvaBot.Domain\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pgvector.EntityFrameworkCore" Version="0.1.1" />
+  </ItemGroup>
+
+</Project>
