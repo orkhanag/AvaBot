@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bySmBoJj5O+7eZK2ET6cwlULoJ2QijYs9Dd3ds/+vZO1RVonltmm68vattbfwef6eX8AuRljNCwn8lt5+YsTqw==",
+  "dgSpecHash": "tsFk0ExI+uAWzTiKA+FqVC/PiHUt/WTVdtIu/T19xCs3p9MGF1w432lNJzX4KuRHfocudaINBJkzAV9WKlY/XA==",
   "success": true,
   "projectFilePath": "D:\\source\\repos\\AvaBot\\src\\AvaBot.Infrastructure\\AvaBot.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",

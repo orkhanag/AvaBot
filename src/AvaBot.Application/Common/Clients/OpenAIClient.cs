@@ -39,10 +39,7 @@ public class OpenAIClient
 
         var responseAsString = await response.Content.ReadAsStringAsync();
 
-        //return await response.Content.ReadAsStringAsync(); 
-
         return JsonSerializer.Deserialize<EmbeddingsAPIResponse>(responseAsString);
-
     }
 }
 public class EmbeddingsAPIRequest
