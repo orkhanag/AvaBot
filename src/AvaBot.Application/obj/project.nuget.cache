@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Vv+wpq4Zn+IMbgLPMiNj7KbBM16LHyE5pNsd3o72hgPX0Iz47WJKc1RmQgISi/licf51PoaoRU/ZS7JbSMeYdA==",
+  "dgSpecHash": "wbUh4ZlcWMBtGjLSALVdQxAwsWD/BcUU0SXYlTGqYz4naLNjZZT4gz42RLYrPhXMQD4EBzRtyeUzHJar8Opbsg==",
   "success": true,
   "projectFilePath": "D:\\source\\repos\\AvaBot\\src\\AvaBot.Application\\AvaBot.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\2.2.0\\microsoft.aspnetcore.connections.abstractions.2.2.0.nupkg.sha512",

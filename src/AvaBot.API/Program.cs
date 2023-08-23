@@ -1,5 +1,6 @@
 using AvaBot.Application;
 using AvaBot.Application.Common.Clients;
+using AvaBot.Application.Common.Middlewares;
 using AvaBot.Application.Common.Models.Settings;
 using AvaBot.Infrastructure;
 using AvaBot.Infrastructure.Persistence;
@@ -50,5 +51,7 @@ app.UseSwaggerUI(options =>
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
     options.RoutePrefix = string.Empty;
 });
+
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.Run();
