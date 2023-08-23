@@ -25,6 +25,8 @@ namespace AvaBot.Infrastructure.Persistence
 
         public DbSet<Instruction> Instructions => Set<Instruction>();
 
+        public DbSet<ChatHistory> ChatHistories => Set<ChatHistory>();
+
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken)
         {
             return await base.SaveChangesAsync(cancellationToken);
