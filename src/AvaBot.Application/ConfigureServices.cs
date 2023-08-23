@@ -3,8 +3,8 @@ using AvaBot.Application.Common.Middlewares;
 using AvaBot.Application.Features.Instructions.Commands.CreateInstruction;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
+using FluentValidation;
+
 namespace AvaBot.Application;
 public static class ConfigureServices
 {
@@ -15,6 +15,8 @@ public static class ConfigureServices
             cfg.RegisterServicesFromAssemblyContaining<CreateInstructionCommandHandler>();
             cfg.AddOpenBehavior(typeof(ValidationBehaviour<,>));
         });
+
+        services.AddValidatorsFromAssemblyContaining<CreateInstructionCommandValidator>();
 
         services.AddTransient<ExceptionHandlingMiddleware>();
         return services;

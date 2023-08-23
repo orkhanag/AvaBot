@@ -17,5 +17,10 @@ public static class ErrorCodes
             new ErrorCodeModel($"PAYLOAD_TOO_LARGE",
                 HttpStatusCode.RequestEntityTooLarge,
                 "Payload too large.");
+
+        public static readonly ErrorCodeModel EmptyField =
+            new ErrorCodeModel($"FIELD_EMPTY",
+                HttpStatusCode.RequestEntityTooLarge,
+                "This field is required!");
     }
 }
