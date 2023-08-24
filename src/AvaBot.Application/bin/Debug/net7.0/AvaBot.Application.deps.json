@@ -9,6 +9,7 @@
       "AvaBot.Application/1.0.0": {
         "dependencies": {
           "AvaBot.Domain": "1.0.0",
+          "Dapper": "2.0.151",
           "FluentValidation": "11.7.1",
           "FluentValidation.DependencyInjectionExtensions": "11.7.1",
           "MediatR": "12.1.1",
@@ -19,6 +20,14 @@
         },
         "runtime": {
           "AvaBot.Application.dll": {}
+        }
+      },
+      "Dapper/2.0.151": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.151.35995"
+          }
         }
       },
       "FluentValidation/11.7.1": {
@@ -461,6 +470,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.0.151": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mMcZgx1lim0/i1Ozu+lgnBM4GwNIHpCuxV6BV2ovsEfZAXRAq4jb6RIhxGDcVjtmXMLPpdp85jHPdDjBMMwejw==",
+      "path": "dapper/2.0.151",
+      "hashPath": "dapper.2.0.151.nupkg.sha512"
     },
     "FluentValidation/11.7.1": {
       "type": "package",

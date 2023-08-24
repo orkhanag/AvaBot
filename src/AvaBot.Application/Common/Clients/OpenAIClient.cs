@@ -23,7 +23,7 @@ public class OpenAIClient
         var content = new EmbeddingsAPIRequest
         {
             Model = _openAPISettings.EmbeddingModel!,
-            Input = input,
+            Input = input
         };
 
         var serializedContent = JsonSerializer.Serialize(content);
@@ -42,12 +42,13 @@ public class OpenAIClient
         return JsonSerializer.Deserialize<EmbeddingsAPIResponse>(responseAsString);
     }
 
-    public async Task<ChatCompletionAPIResponse> CreateChatCompletion(List<Message> messages)
+    public async Task<ChatCompletionAPIResponse> CreateChatCompletion(List<Message> messages, bool stream)
     {
         var content = new ChatCompletionAPIRequest
         {
             Model = _openAPISettings.ChatModel!,
-            Messages = messages
+            Messages = messages,
+            Stream = stream
         };
 
         var serializedContent = JsonSerializer.Serialize(content);
@@ -117,6 +118,8 @@ public class ChatCompletionAPIRequest
     public string Model { get; set; }
     [JsonPropertyName("messages")]
     public List<Message> Messages { get; set; }
+    [JsonPropertyName("stream")]
+    public bool Stream { get; set; }
 }
 
 public class Message
