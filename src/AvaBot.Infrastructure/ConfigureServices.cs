@@ -16,6 +16,8 @@ public static class ConfigureServices
         b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName).MigrationsHistoryTable("__EFMigrationsHistory", "postgres"))
         .ReplaceService<IHistoryRepository, CamelCaseHistoryContext>());
 
+        services.AddSingleton<IDapperDbContext, DapperContext>();
+
         services.AddScoped<IChatService, ChatService>();
 
         return services;
