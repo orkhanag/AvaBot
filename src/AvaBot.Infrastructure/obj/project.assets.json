@@ -1558,6 +1558,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "AvaBot.Domain": "1.0.0",
+          "Dapper": "2.0.151",
           "FluentValidation": "11.7.1",
           "FluentValidation.DependencyInjectionExtensions": "11.7.1",
           "MediatR": "12.1.1",

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wbUh4ZlcWMBtGjLSALVdQxAwsWD/BcUU0SXYlTGqYz4naLNjZZT4gz42RLYrPhXMQD4EBzRtyeUzHJar8Opbsg==",
+  "dgSpecHash": "TZ2jHYspPKaQWeZyUJP6FgLvrVkOIEThJPN5zhH2fES2+6v89AxCPOQIG0Y6E8VJe///vGtzQLEf/MSr4SN0/w==",
   "success": true,
   "projectFilePath": "D:\\source\\repos\\AvaBot\\src\\AvaBot.Application\\AvaBot.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\Orxan.Nagiyev\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
