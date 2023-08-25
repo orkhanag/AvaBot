@@ -48,14 +48,13 @@ public class CreateChatCompletionCommandHandler : IRequestHandler<CreateChatComp
             return "Great! If you have any more questions in the future, feel free to ask. Have a wonderful day!";
         }
 
-
         var inputEmbeddingsResponse = await _openAIClient.CreateEmbeddings(request.Input);
 
         var embedding = new Vector(inputEmbeddingsResponse.Data.FirstOrDefault().Embedding);
 
         //using var conn = _dapperContext.CreateConnection();
 
-        //var instructions = conn.Query<Instruction>("""SELECT * FROM "Instructions" i ORDER BY i."Embeddings" <-> @embedding LIMIT 1""", new { embedding });
+        //var instructions = conn.Query<Instruction>($"""SELECT * FROM "Instructions" i ORDER BY i."Embeddings" <-> {embedding} LIMIT 1""");
 
         var instructions = _context.Instructions.FromSql($"""SELECT * FROM "Instructions" i ORDER BY i."Embeddings" <-> {embedding} LIMIT 1""");
 
